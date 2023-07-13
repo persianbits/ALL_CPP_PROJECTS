@@ -1,12 +1,22 @@
 #include <iostream>
 #include <iomanip>
 
+/*
+ * Envelope Savings Calculator
+ *
+ * This program helps you calculate your savings based on the envelope method.
+ * It asks for the total number of days to save and the starting contribution.
+ * Then, it calculates the daily contribution for each day by multiplying the starting contribution with the day number.
+ * The total savings is updated by adding the daily contribution to it.
+ * Finally, it prints the daily contributions and the total savings after the specified number of days.
+ */
+
 int main() {
     int totalDays;
     int totalSavings = 0;
 
     std::cout << "\nEnvelope Savings Calculator" << std::endl;
-    std::cout << "This program helps you calculate your savings based on envelope method.\n" << std::endl;
+    std::cout << "This program helps you calculate your savings based on the envelope method.\n" << std::endl;
 
     std::cout << "Enter the total number of days to save: ";
     std::cin >> totalDays;
